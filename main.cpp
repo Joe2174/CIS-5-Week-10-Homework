@@ -10,7 +10,7 @@ using std::cout;
 
 void printScores(const int scores[], int n) // prints the scores in the array
 {
-	for (int i = 0; i < n; i++) cout << scores[i] << " "; // print each score followed by a space
+	for (int i = 0; i < n; i++) cout << scores[i] << " "; // traverse array, print each score followed by a space
 	cout << "\n";
 }
 
